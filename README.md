@@ -1,4 +1,4 @@
-# lima-xbar-plugin
+# (Co)lima-xbar-plugin
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Awesomebot](https://github.com/unixorn/lima-xbar-plugin/actions/workflows/awesomebot.yml/badge.svg)
@@ -17,17 +17,17 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
+[Colima](https://github.com/abiosoft/colima) minimal setup wrapper on top of Lima
 [Lima](https://github.com/lima-vm/lima) is an alternative to using Docker Desktop on your Mac.
 
 ## Description
 
-This plugin is compatible with [xbar](https://xbarapp.com/) and [SwiftBar](https://github.com/swiftbar/SwiftBar), and provides a menubar app that creates a Lima menubar option with submenus for each Lima VM on your machine. For each VM, you can:
+This plugin is compatible with [xbar](https://xbarapp.com/) and [SwiftBar](https://github.com/swiftbar/SwiftBar), and provides a menubar app that creates a (Co)lima menubar option with submenus for each (Co)lima VM on your machine. For each VM, you can:
 
 - start/stop the VM
 - stop, start or remove stopped containers
 - pull or remove images from the VM
-- Run an arbitrary command inside the VM with `lima`
+- Run an arbitrary command inside the VM with `colima`
 
 ### Screen shots
 
@@ -39,7 +39,7 @@ This plugin is compatible with [xbar](https://xbarapp.com/) and [SwiftBar](https
 
 ## Installation
 
-Copy `lima-plugin` to `~/Library/Application\ Support/xbar/plugins/lima-plugin.30s`, or run `make install`
+Copy `colima-plugin` to `~/Library/Application\ Support/xbar/plugins/colima-plugin.30s`, or run `make install`
 ### Dependencies
 
 - [xbar](https://xbarapp.com/) or [SwiftBar](https://github.com/swiftbar/SwiftBar) - Both allow you to make custom menubar apps with simple scripts.

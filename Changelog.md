@@ -1,4 +1,4 @@
-# Lima Xbar/Swiftbar changelog
+# (Co)lima Xbar/Swiftbar changelog
 
 ## 0.0.1 - 1.0.0
 
